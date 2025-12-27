@@ -1,0 +1,6 @@
+# Exclude Resume Files
+Muralii_Krishnan_Thirumalai_Resume.docx
+resume.txt
+
+# System Files
+.DS_Store
