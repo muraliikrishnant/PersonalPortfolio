@@ -652,3 +652,22 @@ body::before {
         grid-template-columns: 1fr;
     }
 }
+
+/* Hero Content - Centered (No Image) */
+.hero-content {
+    grid-template-columns: 1fr; /* Single column */
+    text-align: center;
+    justify-items: center;
+}
+
+.hero-content .text-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Remove Image Styles if they exist (cleanup) */
+.profile-frame, .profile-placeholder {
+    display: none;
+}
